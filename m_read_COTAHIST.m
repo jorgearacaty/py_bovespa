@@ -1,7 +1,7 @@
 %
 
 % --- 0000.
-% --- program_name -> kb02_read_cotHistCSV.m
+% --- program_name -> m_read_COTAHIST.m
 % --- jorgearacaty, 23:13 01/04/2014.
 % --- carrega csv na memória e executa análises.
 
