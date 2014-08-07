@@ -1,9 +1,10 @@
-%
-
-% --- 0000.
-% --- program_name -> m_read_COTAHIST.m
-% --- jorgearacaty, 23:13 01/04/2014.
-% --- carrega csv na memória e executa análises.
+% ------------------------------------------------
+% --- Matlab/Octave
+% --- m_read_COTAHIST.m - Lê cotações históricas da bovespa,
+% --- em arquivo com formato CSV.
+% --- criado em - jorgearacaty, 4 jan 2014 - 2312.
+% --- jorgearacaty, 7 ago 2014 - 1712.
+% ------------------------------------------------
 
 clear, clc
 nome_programa = 'kb02_read_cotHistCSV.m';
