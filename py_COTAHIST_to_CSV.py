@@ -12,7 +12,7 @@ import sys
 import csv
 
 # ----------------------------------------------------------
-# Lê arquivo ASCII campos de tamanho fixo sem delimitadores,
+# lê arquivo ASCII campos de tamanho fixo sem delimitadores,
 # com cotações histórica, arquivo baixado do site bovespa e
 # transcreve para arquivo .csv.
 # ----------------------------------------------------------
@@ -56,7 +56,7 @@ def r_asc_w_csv(nome_arq):
     print '\nprocessados ->', npros, '<- registros'
 
 # -----------------------------------------------
-# Uma grande jornada inicia com o primeiro passo.
+# uma grande jornada inicia com o primeiro passo.
 # -----------------------------------------------
 if __name__ == '__main__':
 

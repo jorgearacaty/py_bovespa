@@ -7,20 +7,24 @@
 % ------------------------------------------------
 
 clear, clc
-nome_programa = 'kb02_read_cotHistCSV.m';
+nome_programa = 'm_read_COTAHIST.m';
 fprintf('\n------------------------------------------');
 fprintf('\n--- programa: %s',nome_programa);
 fprintf('\n------------------------------------------\n');
 
 % --- cria a matriz simbolos a partir to arquivo criado pelo Excel.
 while (true)
+    
     break
-    % --- cria a matriz simbolos a partir to arquivo criado pelo Excel.
-    % ---
+    
+    % cria a matriz simbolos a partir to arquivo criado pelo Excel.
     simbol_file_name = 'simbolos_papeis_bovespa_excel.txt';
+    
     % P = fileread(file_name);
+    
     [simbolos]=textread(simbol_file_name, '%s','delimiter',',')
     break
+    
 end
 
 % ---
@@ -33,7 +37,6 @@ end
 %    %s %s %s' ...
 
 filename = 'COTAHIST_A2013.csv';
-% filename = 'DemoCotacoesHistoricas12022003.csv'  % ASUS
 
 [tipreg,dtpreg,codbdi,codneg,tpmerc,nomres,especi,prazot,modref, ...
         preabe, premax, premin, premed, preult, preofc, preofv, ...
